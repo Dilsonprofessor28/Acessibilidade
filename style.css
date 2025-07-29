@@ -10,7 +10,7 @@
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 header {
@@ -183,9 +183,9 @@ h2 {
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary{
+.alto-contraste .btn-primary {
     background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
+    color: var(--alto-contraste-fundo);
 }
 
 .alto-contraste #tropicalia {
